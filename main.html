@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Piedra, papel o tijera</title>
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a Piedra, papel o tijera!</h1>
+        <h2>este es un juego interactivo donde usted jugara contra la computadora mediante los botones</h2>
+        <h2>¡Buena suerte!</h2>  
+    </header>
+    <div class="contenedor">
+            
+                <h3>Tus movimientos</h3>
+                <img src="assets/movimientoPapel.jpg" style="display: none;" width="150px" id = "papel">
+                <img src="assets/movimientoPiedra.jpg" style="display: none;" width="150px" id = "piedra">
+                <img src="assets/movimientoTijera.jpg" style="display: none;" width="150px" id = "tijera">
+
+                
+
+                <h3>Los de la computadora</h3>
+                <img src="assets/movimientoPapel.jpg" style="display: none;" width="150px" id = "papel">
+                <img src="assets/movimientoPiedra.jpg" style="display: none;" width="150px" id = "piedra">
+                <img src="assets/movimientoTijera.jpg" style="display: none;" width="150px" id = "tijera">
+        
+            
+    </div>
+    <p id="mensaje"></p>
+    
+    <div>
+        <p id="conclusion" class="conclusion"></p>
+    </div>
+
+    <h2>Elije un movimiento</h2>
+    <div>
+        <img id="botonPiedra" class="botonataque" src="assets/movimientoPiedra.jpg" alt=""></button>
+        <img id="botonPapel" class="botonataque" src="assets/movimientoPapel.jpg" alt=""></button>
+        <img id="botonTijera" class="botonataque" src="assets/movimientoTijera.jpg" alt=""></button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
